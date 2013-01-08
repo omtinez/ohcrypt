@@ -18,7 +18,12 @@ Release notes for version 0.6.6
 OVERVIEW
 --------
 
-OhCrypt lets you easily encrypt and decrypt files using some of the most popular algorithms, like AES, Blowfish and TwoFish. With OhCrypt, you can secure your data with a password-based encryption algorithm through a clean and simple interface. It is cross-platform software and files can be encrypted and decrypted on any machine that can run a Java Virtual Machine (JVM).
+OhCrypt lets you easily encrypt and decrypt files using some of the most 
+popular algorithms, like AES, Blowfish and TwoFish. With OhCrypt, you can 
+secure your data with a password-based encryption algorithm through a 
+clean and simple interface. It is cross-platform software and files can 
+be encrypted and decrypted on any machine that can run a Java Virtual 
+Machine (JVM).
 
 
 CHANGELOG
@@ -51,7 +56,8 @@ CHANGELOG
 
   - reorganized settings class
 
-  - ohcrypt window now organized in tabs, as suggested by sourceforge user thotheolh
+  - ohcrypt window now organized in tabs, as suggested by sourceforge 
+    user thotheolh
 
   - added option for compressing the encrypted files
 
@@ -122,7 +128,8 @@ CHANGELOG
 
 * IN 0.4
 
-  - fixed unexpected behavior when using the program several times within same instance
+  - fixed unexpected behavior when using the program several times within 
+    same instance
 
   - self explanatory title for file choosers
 
@@ -229,7 +236,8 @@ CHANGELOG
 
   - created a new menu bar with a single option
 
-  - created the "about" panel with the author's name and a link to the sourceforge project page
+  - created the "about" panel with the author's name and a link to the 
+    sourceforge project page
 
 
 * IN OLDER VERSIONS
@@ -248,13 +256,18 @@ CHANGELOG
 INSTALLATION
 ------------
 
-OhCrypt does not require any installation, simply mark it as executable and run it. For Windows users open the the .jar file with a java virtual machine. Other platforms execute .jar file using preferred JVM. It only requires a java virtual machine to be installed on the host machine. It also runs under all platforms.
+OhCrypt does not require any installation, simply mark it as executable 
+and run it. For Windows users open the the .jar file with a java virtual 
+machine. Other platforms execute .jar file using preferred JVM. It only 
+requires a java virtual machine to be installed on the host machine. It 
+also runs under all platforms.
 
 
 CONTACT
 -------
 
-For any questions related to the program or its developer, email: omtinez@gmail.com
+For any questions related to the program or its developer, email: 
+omtinez@gmail.com
 
 
 TO-DO
@@ -267,3 +280,34 @@ TO-DO
 - create solid documentation for ohcrypt
 
 - create project's webpage
+
+License
+-------
+
+Copyright (c) 2013, Oscar Martinez
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+    
+* Redistributions of source code must retain the above copyright
+  notice, this list of conditions and the following disclaimer.
+    
+* Redistributions in binary form must reproduce the above copyright
+  notice, this list of conditions and the following disclaimer in the
+  documentation and/or other materials provided with the distribution.
+    
+* Neither the name of the <organization> nor the
+  names of its contributors may be used to endorse or promote products
+  derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY
+DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
