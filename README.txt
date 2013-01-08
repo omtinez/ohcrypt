@@ -1,241 +1,264 @@
-* * * * * * * * * * * * * * * * * * * * * *
-*        OHCRYPT ENCRYPTION TOOL          *
-*                                         *
-* Developed by omtinez                    *
-*                                         *
-* Licensed under GPL                      *
-*                                         *
-* Last edited Oct. 19, 2012               *
-*                                         *
-* www.sourceforge.net/projects/ohcrypt    *
-*                                         *
-* * * * * * * * * * * * * * * * * * * * * *
 
-Release notes for version 0.6.6
+OHCRYPT ENCRYPTION TOOL
+=======================
+
+* Developed by omtinez
+
+* Licensed under GPL
+
+* Last edited Oct. 19, 2012
+
+* www.github.com/omtinez/ohcrypt
+   
+   
+   
+Release notes for version 0.6.6   
 
 
 OVERVIEW
+--------
 
 OhCrypt lets you easily encrypt and decrypt files using some of the most popular algorithms, like AES, Blowfish and TwoFish. With OhCrypt, you can secure your data with a password-based encryption algorithm through a clean and simple interface. It is cross-platform software and files can be encrypted and decrypted on any machine that can run a Java Virtual Machine (JVM).
 
 
-IN THIS VERSION
+CHANGELOG
+---------
 
-- Fixed several warnings for latest version of Eclipse
+* IN THIS VERSION
+  
+  - Fixed several warnings for latest version of Eclipse
 
-IN 0.6.5
 
-- blowfish now supported (experimental)
+* IN 0.6.5
 
-- cleaned up ohcrypt class
+  - blowfish now supported (experimental)
 
-- deactivated serpent and twofish
+  - cleaned up ohcrypt class
 
-IN 0.6.4
+  - deactivated serpent and twofish
 
-- fixed nasty bug in portable mode under windows
 
-- improved stream handling of files
+* IN 0.6.4
 
-IN 0.6.3
+  - fixed nasty bug in portable mode under windows
 
-- ohcrypt now developed using eclipse IDE
+  - improved stream handling of files
 
-- reorganized settings class
 
-- ohcrypt window now organized in tabs, as suggested by sourceforge user thotheolh
+* IN 0.6.3
 
-- added option for compressing the encrypted files
+  - ohcrypt now developed using eclipse IDE
 
-- fixed bug: correct destination folder when using portable mode
+  - reorganized settings class
 
-IN 0.6.2
+  - ohcrypt window now organized in tabs, as suggested by sourceforge user thotheolh
 
-- portable mode renamed
+  - added option for compressing the encrypted files
 
-- portable mode improved
+  - fixed bug: correct destination folder when using portable mode
 
-- on-the-fly encryption somewhat implemented
 
-- classes and functions reorganized into different files
+* IN 0.6.2
 
-IN 0.6.1
+  - portable mode renamed
 
-- implemented safedelete function, testing with 20 rewrites
+  - portable mode improved
 
-- more functions write on the console to help debugging
+  - on-the-fly encryption somewhat implemented
 
-- minor tweaks in labels and tooltips
+  - classes and functions reorganized into different files
 
-IN 0.6
 
-- settings menu expanded
+* IN 0.6.1
 
-- some tooltips enabled
+  - implemented safedelete function, testing with 20 rewrites
 
-- cleaned up the code, split in two different classes
+  - more functions write on the console to help debugging
 
-- experimental auto-extract of encrypted files feature
+  - minor tweaks in labels and tooltips
 
-IN 0.5
 
-- milestone release
+* IN 0.6
 
-- internal file handling changed
+  - settings menu expanded
 
-- real multiple file encryption
+  - some tooltips enabled
 
-- files packaged before encryption
+  - cleaned up the code, split in two different classes
 
-- settings menu inluded
+  - experimental auto-extract of encrypted files feature
 
-IN 0.4.2
 
-- multiple file selection implemented
+* IN 0.5
 
-- fixed labels for filenames
+  - milestone release
 
-- implemented JList to display file paths
+  - internal file handling changed
 
-- overall improvement in the look&feeling of the program
+  - real multiple file encryption
 
-- optimization of the code, deleting over 50 lines
+  - files packaged before encryption
 
-IN 0.4.1
+  - settings menu inluded
 
-- implemented header at the beginning of encrypted files
 
-IN 0.4
+* IN 0.4.2
 
-- fixed unexpected behavior when using the program several times within same instance
+  - multiple file selection implemented
 
-- self explanatory title for file choosers
+  - fixed labels for filenames
 
-- encryption performance 500% faster
+  - implemented JList to display file paths
 
-- twofish and serpent encryption algorithms added (not working yet)
+  - overall improvement in the look&feeling of the program
 
-- jar package cleaner
+  - optimization of the code, deleting over 50 lines
 
-- updated developer info
 
-IN 0.3.4
+* IN 0.4.1
 
-- real multiple file encryption / decryption implemented
+  - implemented header at the beginning of encrypted files
 
-- "Not output file selected" always popping up bug fixed
 
-- simplified source file name handling
+* IN 0.4
 
-- scroll pane now used to display source files
+  - fixed unexpected behavior when using the program several times within same instance
 
-- technically unlimited source files
+  - self explanatory title for file choosers
 
-- general gui improvement
+  - encryption performance 500% faster
 
-- fixed small bugs
+  - twofish and serpent encryption algorithms added (not working yet)
 
-IN 0.3.3
+  - jar package cleaner
 
-- Native look and feel for all platforms
+  - updated developer info
 
-- Improved GUI
 
-IN 0.3.2
+* IN 0.3.4
 
-- multiple file selection, no en/decryption yet
+  - real multiple file encryption / decryption implemented
 
-IN 0.3.1
+  - "Not output file selected" always popping up bug fixed
 
-- smarter error displaying
+  - simplified source file name handling
 
-IN 0.3
+  - scroll pane now used to display source files
 
-- store encrypted file name within file for later use in decryption
+  - technically unlimited source files
 
-- autodetect original file name from encrypted files
+  - general gui improvement
 
-- fixed README file for proper view with notepad
+  - fixed small bugs
 
-- updated wrapping to executable binary for windows
 
-- now up to 700% smaller executables under windows
+* IN 0.3.3
 
-- updated higher resolution icon
+  - Native look and feel for all platforms
 
+  - Improved GUI
 
-IN 0.2.1
 
-- fixed progress frame that didn't show correctly
+* IN 0.3.2
 
-- updated the about frame
+  - multiple file selection, no en/decryption yet
 
-- fixed the selected file label
 
-- inclusion of icon and logo
+* IN 0.3.1
 
+  - smarter error displaying
 
-IN 0.2
 
-- fixed bug that didn't allow to encrypt/decrypt big sized files
+* IN 0.3
 
-- added a progress window
+  - store encrypted file name within file for later use in decryption
 
-- added a cancel button
+  - autodetect original file name from encrypted files
 
-- smarter error handling
+  - fixed README file for proper view with notepad
 
-- program now stays open after operation is done
+  - updated wrapping to executable binary for windows
 
-- encryption/decryption is now performed in a separate thread
+  - now up to 700% smaller executables under windows
 
-- program packaging changed into a .zip file
+  - updated higher resolution icon
 
-- windows executable .exe compilation added to the program packaging
 
-- release notes now updated and with more important information available
+* IN 0.2.1
 
-- first major release: OhCrypt goes BETA
+  - fixed progress frame that didn't show correctly
 
+  - updated the about frame
 
-IN 0.1.2
+  - fixed the selected file label
 
-- fixed file name label
+  - inclusion of icon and logo
 
-- main window now non-resizable
 
+* IN 0.2
 
-IN 0.1.1
+  - fixed bug that didn't allow to encrypt/decrypt big sized files
 
-- created a new menu bar with a single option
+  - added a progress window
 
-- created the "about" panel with the author's name and a link to the sourceforge project page
+  - added a cancel button
 
+  - smarter error handling
 
-IN OLDER VERSIONS
+  - program now stays open after operation is done
 
-- updated project page
+  - encryption/decryption is now performed in a separate thread
 
-- first version released
+  - program packaging changed into a .zip file
 
-- release notes
+  - windows executable .exe compilation added to the program packaging
 
-- new designed icons
+  - release notes now updated and with more important information available
 
-- screenshots uploaded
+  - first major release: OhCrypt goes BETA
+
+
+* IN 0.1.2
+
+  - fixed file name label
+
+  - main window now non-resizable
+
+
+* IN 0.1.1
+
+  - created a new menu bar with a single option
+
+  - created the "about" panel with the author's name and a link to the sourceforge project page
+
+
+* IN OLDER VERSIONS
+
+  - updated project page
+
+  - first version released
+
+  - release notes
+
+  - new designed icons
+
+  - screenshots uploaded
 
 
 INSTALLATION
+------------
 
 OhCrypt does not require any installation, simply mark it as executable and run it. For Windows users open the the .jar file with a java virtual machine. Other platforms execute .jar file using preferred JVM. It only requires a java virtual machine to be installed on the host machine. It also runs under all platforms.
 
 
 CONTACT
+-------
 
-For any questions related to the program or its developer, email:	omartinez1 [at] malone.edu
+For any questions related to the program or its developer, email: omtinez@gmail.com
 
 
 TO-DO
+-----
 
 - progress bar set accordingly with true progress
 
